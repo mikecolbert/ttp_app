@@ -1,7 +1,15 @@
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 20px;
+}
+
 .test {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   padding: 10px;
+  text-align: center;
 }
 
 .logo {
