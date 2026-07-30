@@ -3,18 +3,28 @@ endblock %} {% block content %}
 
 <h1>The Temperature Project</h1>
 
-<p>
-  lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<div class="d-flex align-items-center gap-4 mb-4">
+  <div class="flex-shrink-0">
+    <img
+      src="{{ url_for('static', filename='images/sandy.png') }}"
+      class="logo"
+      alt="Sandy Cheeks"
+    />
+  </div>
+
+  <div>
+    <p class="mb-0">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+  </div>
+</div>
 
 <p class="test">lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<img
-  src="{{ url_for('static', filename='images/sandy.png') }}"
-  alt="Sandy Cheeks"
-/>
+
 {% endblock %}
